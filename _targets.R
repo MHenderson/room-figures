@@ -47,7 +47,7 @@ list(
     command = ggsave("figure/complete_graph.png",
                        plot = complete_graph_fig,
                       width = 2,
-                     height = 2)
+                     height = 1)
   ),
   tar_target(
     name = two_one_factors_fig_file,
