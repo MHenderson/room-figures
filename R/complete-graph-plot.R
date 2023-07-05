@@ -5,11 +5,13 @@ complete_graph_plot <- function() {
   
   gp <- ggraph::ggraph(g, layout = 'circle') +
     ggraph::geom_edge_link() +
-    ggraph::geom_node_point()
+    ggraph::geom_node_point() +
+    ggplot2::theme_void()
   
   hp <- ggraph::ggraph(h, layout = 'circle') +
     ggraph::geom_edge_link() +
-    ggraph::geom_node_point()
+    ggraph::geom_node_point() +
+    ggplot2::theme_void()
   
   gp + hp
   
