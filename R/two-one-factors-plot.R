@@ -9,12 +9,14 @@ two_one_factors_plot <- function() {
   gp <- ggraph::ggraph(g, layout = 'circle') +
     ggraph::geom_edge_link() +
     ggraph::geom_node_point() +
-    ggraph::geom_node_label(aes(label = name))
+    ggraph::geom_node_text(ggplot2::aes(label = name), repel = TRUE) +
+    ggplot2::theme_void()
   
   hp <- ggraph::ggraph(h, layout = 'circle') +
     ggraph::geom_edge_link() +
     ggraph::geom_node_point() +
-    ggraph::geom_node_label(aes(label = name))
+    ggraph::geom_node_text(ggplot2::aes(label = name), repel = TRUE) +
+    ggplot2::theme_void()
   
   gp + hp
   

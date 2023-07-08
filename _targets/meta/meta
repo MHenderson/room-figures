@@ -1,13 +1,13 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-complete_graph_fig|stem|3652828557164969|51e25aae93e5c254|ca9b80a545f4bd12|-103651696||t19543.6348873573s|6b27c64b0c1b9301|95084|rds|local|vector|||0.68||
-complete_graph_fig_file|stem|a570f60c9931146a|a0708077cd98a3e1|3b0be61e7486aad1|-1692498324||t19543.6348953666s|c852eab37a726e04|78|rds|local|vector|||0.305|1m22mUsing the size aesthetic in this geom was deprecated in ggplot2 3.4.0.36mℹ39m Please use linewidth in the default_aes field and elsewhere instead.|
+complete_graph_fig|stem|260bd759952bbc1d|51e25aae93e5c254|ca9b80a545f4bd12|-103651696||t19546.7156608549s|419027f881d6a4cb|95085|rds|local|vector|||0.782||
+complete_graph_fig_file|stem|a570f60c9931146a|a0708077cd98a3e1|c342df999521b478|-1692498324||t19546.7156704382s|c852eab37a726e04|78|rds|local|vector|||0.422|1m22mUsing the size aesthetic in this geom was deprecated in ggplot2 3.4.0.36mℹ39m Please use linewidth in the default_aes field and elsewhere instead.|
 complete_graph_plot|function|d6a0bacfb3ccc5e5|||||||||||||||
-one_factorisation_fig|stem|cdbde9b65ccab53a|1fee88e3d0b170a8|1e8badfce6487e89|-1429099058||t19543.6348917555s|032c27f31418d442|141529|rds|local|vector|||0.039||
-one_factorisation_fig_file|stem|5c8b012bcf5a0658|3430366274cf0020|e2489f0b1dfa7f71|-1709970623||t19543.6349212925s|e655bbbdcbba1d63|81|rds|local|vector|||0.314||
+one_factorisation_fig|stem|67736290e29f52cd|1fee88e3d0b170a8|1e8badfce6487e89|-1429099058||t19546.7156654382s|8655550cef34fe86|141528|rds|local|vector|||0.026||
+one_factorisation_fig_file|stem|5c8b012bcf5a0658|3430366274cf0020|350a219b3be8bf26|-1709970623||t19546.7156930771s|e655bbbdcbba1d63|81|rds|local|vector|||0.367||
 one_factorisation_plot|function|077be13236603fa4|||||||||||||||
-orthogonal_one_factorisation_fig|stem|748a59d8001155fc|e0293d63f58739dd|b87cd1cfddc5ee8d|-1045084297||t19543.6348892092s|49fc0a66ee3d9477|151356|rds|local|vector|||0.066||
-orthogonal_one_factorisation_fig_file|stem|274c10d17bdd5bd3|54ed4d36faa3e823|3bd22c586d7cbb4a|-678393291||t19543.6349141166s|8fcb0666863d3c08|92|rds|local|vector|||1.612||
+orthogonal_one_factorisation_fig|stem|b5274f1fefde740c|e0293d63f58739dd|b87cd1cfddc5ee8d|-1045084297||t19546.7156627068s|3900e68590d29a7f|151357|rds|local|vector|||0.061||
+orthogonal_one_factorisation_fig_file|stem|274c10d17bdd5bd3|54ed4d36faa3e823|5c717fa2db5fe4eb|-678393291||t19546.7156852531s|8fcb0666863d3c08|92|rds|local|vector|||1.275||
 orthogonal_one_factorisation_plot|function|dcfe9e030d4e0bb4|||||||||||||||
-two_one_factors_fig|stem|0911ba8e5567cc4b|f0979edb2f66a5ac|fba3863c64269ef4|346093151||t19543.6348904129s|b7ccfbdafc8b003b|96126|rds|local|vector|||0.051||
-two_one_factors_fig_file|stem|509f215f9bf0f056|443fca1428019a85|e82b37656475205d|-202751565||t19543.6349175888s|8619def19bb20a44|79|rds|local|vector|||0.293||
-two_one_factors_plot|function|66584c000622211f|||||||||||||||
+two_one_factors_fig|stem|b8f440032a98320b|f0979edb2f66a5ac|97b6e251b725d72e|346093151||t19546.7156642345s|ccb377fddcebc012|110151|rds|local|vector|||0.068||
+two_one_factors_fig_file|stem|509f215f9bf0f056|443fca1428019a85|5f3340d21fd72cdd|-202751565||t19546.7173539105s|8619def19bb20a44|79|rds|local|vector|||0.471|1m22mUsing the size aesthetic in this geom was deprecated in ggplot2 3.4.0.36mℹ39m Please use linewidth in the default_aes field and elsewhere instead.|
+two_one_factors_plot|function|86fa4f785298fe8d|||||||||||||||
