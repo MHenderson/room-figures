@@ -53,8 +53,8 @@ list(
     name = two_one_factors_fig_file,
     command = ggsave("figure/two_one_factors.png",
                        plot = two_one_factors_fig,
-                      width = 6,
-                     height = 3)
+                      width = 2,
+                     height = 1)
   ),
   tar_target(
     name = one_factorisation_fig_file,
