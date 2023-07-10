@@ -60,8 +60,8 @@ list(
     name = one_factorisation_fig_file,
     command = ggsave("figure/one_factorisation.png",
                        plot = one_factorisation_fig,
-                      width = 5,
-                     height = 4)
+                      width = 4,
+                     height = 2)
   ),
   tar_target(
     name = orthogonal_one_factorisation_fig_file,
