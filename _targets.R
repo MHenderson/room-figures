@@ -68,6 +68,6 @@ list(
     command = ggsave("figure/orthogonal_one_factorisation.png",
                        plot = orthogonal_one_factorisation_fig,
                       width = 8,
-                     height = 8)
+                     height = 12)
   )
 )
