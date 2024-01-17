@@ -1,0 +1,23 @@
+\begin{tikzpicture}
+
+\GraphInit[vstyle=Classic]
+%\draw[help lines] (0,0) grid (6,6);
+
+\begin{scope}[xshift=0 cm]
+\Vertex[x=3,y=6]{A}
+\Vertex[x=6,y=0]{B}
+\Vertex[x=0,y=0]{C}
+\Vertex[x=3,y=3]{D}
+\Edge(A)(B)
+\Edge(C)(D)
+\end{scope}
+\begin{scope}[xshift=9 cm]
+\Vertex[x=3,y=6]{A}
+\Vertex[x=6,y=0]{B}
+\Vertex[x=0,y=0]{C}
+\Vertex[x=3,y=3]{D}
+\Edge(A)(C)
+\Edge(B)(D)
+\end{scope}
+
+\end{tikzpicture}
