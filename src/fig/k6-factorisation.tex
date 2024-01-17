@@ -1,30 +1,46 @@
-\begin{tikzpicture}
+\begin{tikzpicture}[scale=0.7]
 
+\SetVertexMath
 \GraphInit[vstyle=Classic]
-\draw[help lines] (0,0) grid (30,20);
+%\draw[help lines] (0,0) grid (30,20);
 
 \begin{scope}[xshift=5cm, yshift=15cm]
 \grComplete[prefix=q]{6}
 \end{scope}
 
 \begin{scope}[xshift=15cm, yshift=15cm]
-\grComplete[prefix=q]{6}
+\grEmptyCycle{6}
+\Edge(a0)(a1)
+\Edge(a2)(a4)
+\Edge(a3)(a5)
 \end{scope}
 
 \begin{scope}[xshift=25cm, yshift=15cm]
-\grComplete[prefix=q]{6}
+\grEmptyCycle{6}
+\Edge(a0)(a5)
+\Edge(a1)(a4)
+\Edge(a2)(a3)
 \end{scope}
 
 \begin{scope}[xshift=5cm, yshift=5cm]
-\grComplete[prefix=q]{6}
+\grEmptyCycle{6}
+\Edge(a0)(a3)
+\Edge(a1)(a2)
+\Edge(a4)(a5)
 \end{scope}
 
 \begin{scope}[xshift=15cm, yshift=5cm]
-\grComplete[prefix=q]{6}
+\grEmptyCycle{6}
+\Edge(a0)(a2)
+\Edge(a1)(a5)
+\Edge(a3)(a4)
 \end{scope}
 
 \begin{scope}[xshift=25cm, yshift=5cm]
-\grComplete[prefix=q]{6}
+\grEmptyCycle{6}
+\Edge(a0)(a4)
+\Edge(a1)(a3)
+\Edge(a2)(a5)
 \end{scope}
 
 \end{tikzpicture}
