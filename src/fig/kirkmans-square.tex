@@ -1,0 +1,133 @@
+\begin{tikzpicture}[scale=0.7]
+
+\SetVertexMath
+\GraphInit[vstyle=Classic]
+%\draw[help lines] (0,0) grid (30,50);
+
+% top row
+
+\begin{scope}[xshift=5cm, yshift=45cm]
+\grEmptyCycle{8}
+\Edge(a0)(a1)
+\Edge(a2)(a3)
+\Edge(a4)(a5)
+\Edge(a6)(a7)
+\end{scope}
+
+\begin{scope}[xshift=15cm, yshift=45cm]
+\grEmptyCycle{8}
+\Edge(a0)(a6)
+\Edge(a1)(a7)
+\Edge(a2)(a4)
+\Edge(a3)(a5)
+\end{scope}
+
+\begin{scope}[xshift=25cm, yshift=45cm]
+\grEmptyCycle{8}
+\Edge(a0)(a7)
+\Edge(a1)(a6)
+\Edge(a2)(a5)
+\Edge(a3)(a4)
+\end{scope}
+
+% second row
+
+\begin{scope}[xshift=5cm, yshift=35cm]
+\grEmptyCycle{8}
+\Edge(a0)(a4)
+\Edge(a1)(a5)
+\Edge(a2)(a6)
+\Edge(a3)(a7)
+\end{scope}
+
+\begin{scope}[xshift=15cm, yshift=35cm]
+\grEmptyCycle{8}
+\Edge(a0)(a5)
+\Edge(a1)(a4)
+\Edge(a2)(a7)
+\Edge(a3)(a6)
+\end{scope}
+
+\begin{scope}[xshift=25cm, yshift=35cm]
+\grEmptyCycle{8}
+\Edge(a0)(a2)
+\Edge(a1)(a3)
+\Edge(a4)(a6)
+\Edge(a5)(a7)
+\end{scope}
+
+% third row
+
+\begin{scope}[xshift=5cm, yshift=25cm]
+\grEmptyCycle{8}
+\Edge(a0)(a3)
+\Edge(a1)(a2)
+\Edge(a4)(a7)
+\Edge(a5)(a6)
+\end{scope}
+
+\begin{scope}[xshift=15cm, yshift=25cm]
+\grEmptyCycle{8}
+\Edge(a0)(a5)
+\Edge(a1)(a3)
+\Edge(a2)(a6)
+\Edge(a4)(a7)
+\end{scope}
+
+\begin{scope}[xshift=25cm, yshift=25cm]
+\grEmptyCycle{8}
+\Edge(a0)(a6)
+\Edge(a1)(a2)
+\Edge(a3)(a4)
+\Edge(a5)(a7)
+\end{scope}
+
+% fourth row
+
+\begin{scope}[xshift=5cm, yshift=15cm]
+\grEmptyCycle{8}
+\Edge(a0)(a4)
+\Edge(a1)(a6)
+\Edge(a2)(a7)
+\Edge(a3)(a5)
+\end{scope}
+
+\begin{scope}[xshift=15cm, yshift=15cm]
+\grEmptyCycle{8}
+\Edge(a0)(a1)
+\Edge(a2)(a5)
+\Edge(a3)(a7)
+\Edge(a4)(a6)
+\end{scope}
+
+\begin{scope}[xshift=25cm, yshift=15cm]
+\grEmptyCycle{8}
+\Edge(a0)(a3)
+\Edge(a1)(a5)
+\Edge(a2)(a4)
+\Edge(a6)(a7)
+\end{scope}
+
+% bottom row
+
+\begin{scope}[xshift=5cm, yshift=5cm]
+\grEmptyCycle{8}
+\Edge(a0)(a2)
+\Edge(a1)(a7)
+\Edge(a3)(a6)
+\Edge(a4)(a5)
+\end{scope}
+
+\begin{scope}[xshift=15cm, yshift=5cm]
+\grEmptyCycle{8}
+\Edge(a0)(a7)
+\Edge(a1)(a4)
+\Edge(a2)(a3)
+\Edge(a5)(a6)
+\end{scope}
+
+\begin{scope}[xshift=25cm, yshift=5cm]
+\grComplete[prefix=a]{8}
+\end{scope}
+
+\end{tikzpicture}
