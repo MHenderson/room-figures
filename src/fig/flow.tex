@@ -1,0 +1,16 @@
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, text width=3cm, draw=black, fill=orange!30]
+\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+
+\tikzstyle{arrow} = [thick,->,>=stealth]
+
+\begin{tikzpicture}[node distance=2cm]
+\node (empty) [decision] {Is $(i, j)$ empty?};
+\node (contains) [decision, below right of = empty, xshift = 3cm, yshift = -2cm] {Does $(i, j)$ contain $\{0, k\}$?};
+\node (out1) [process, below left of = empty, xshift = -2cm, yshift = -1cm] {Replace $(i, j)$ by an empty array of side $n$.};
+\node (out2) [process, below left of = contains, xshift = -2cm, yshift = -2cm] {Replace $(i, j)$ with a Room square $N + kn$, obtained by adding $kn$ to every non-zero entry of $N$};
+\node (out3) [process, below right of = contains, xshift = 3cm, yshift = -2cm] {Add $un$ to every entry of $L_{1}$ and $vn$ to every entry of $L_{2}$ and place the join of the resulting MOLS in $(i, j)$.};
+\draw [arrow] (empty) -| node[anchor=east] {Yes} (out1);
+\draw [arrow] (empty) -| node[anchor=west] {No} (contains);
+\draw [arrow] (contains) -| node[anchor=east] {Yes} (out2);
+\draw [arrow] (contains) -| node[anchor=west] {No} (out3);
+\end{tikzpicture}
